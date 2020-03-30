@@ -7,15 +7,7 @@ The RunSimulation is intended for replaying collected OGCSensorthings API data.
 
 The RunSimulation is based on the following technologies:
 *	MQTT interface for sending messages
-*	SQLite databases used for reading observations from
-
-
-The COP professional API provides the following main functionalities:
-*	Incident classification and management
-*	Division of a geographical area into zones and subzones
-*	Mapping of incidents, sensors, facilities and people/groups/crowds to zones
-*	Fast retrieval of current status of the situational objects of interest
-
+*	SQLite databases used for reading observations that create the simulation
 
 
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
