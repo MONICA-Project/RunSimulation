@@ -1,0 +1,344 @@
+{
+  "simulation": [
+    {
+      "name": "WD 24",
+      "simulationFile": "WD 24.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Wind-Speed",
+        "description": "The speed of the wind.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Wind-Speed/env-nodeWD1",
+        "description": "Datastream for The speed of the wind.",
+        "unitOfMeasurement": {
+          "definition": "http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerSecond",
+          "name": "wind-speed",
+          "symbol": "m s^-1"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 25",
+      "simulationFile": "WD 25.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Air-Temperature",
+        "description": "A measure of Air-Temperature.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Air-Temperature/env-nodeWD1",
+        "description": "Datastream for A measure of Air-Temperature.",
+        "unitOfMeasurement": {
+          "name": "air-temperature"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 28",
+      "simulationFile": "WD 28.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Wind-Speed",
+        "description": "The speed of the wind.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Wind-Speed/env-nodeWD3",
+        "description": "Datastream for The speed of the wind.",
+        "unitOfMeasurement": {
+          "definition": "http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerSecond",
+          "name": "wind-speed",
+          "symbol": "m s^-1"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 29",
+      "simulationFile": "WD 29.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Air-Temperature",
+        "description": "A measure of Air-Temperature.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Air-Temperature/env-nodeWD3",
+        "description": "Datastream for A measure of Air-Temperature.",
+        "unitOfMeasurement": {
+          "name": "air-temperature"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 32",
+      "simulationFile": "WD 32.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Wind-Speed",
+        "description": "The speed of the wind.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Wind-Speed/env-nodeWD4",
+        "description": "Datastream for The speed of the wind.",
+        "unitOfMeasurement": {
+          "definition": "http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerSecond",
+          "name": "wind-speed",
+          "symbol": "m s^-1"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 33",
+      "simulationFile": "WD 33.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Air-Temperature",
+        "description": "A measure of Air-Temperature.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Air-Temperature/env-nodeWD4",
+        "description": "Datastream for A measure of Air-Temperature.",
+        "unitOfMeasurement": {
+          "name": "air-temperature"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 36",
+      "simulationFile": "WD 36.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Wind-Speed",
+        "description": "The speed of the wind.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Wind-Speed/env-nodeWD2",
+        "description": "Datastream for The speed of the wind.",
+        "unitOfMeasurement": {
+          "definition": "http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerSecond",
+          "name": "wind-speed",
+          "symbol": "m s^-1"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 37",
+      "simulationFile": "WD 37.db",
+      "thing": {
+        "name": "ONEM2M-Platform",
+        "description": "Integration of OneM2M platform",
+        "properties": {
+          "type": "Integration of OneM2M platform for environmental sensor management"
+        }
+      },
+      "observedProperties": {
+        "name": "Air-Temperature",
+        "description": "A measure of Air-Temperature.",
+        "definition": "http://link-property-definition.com"
+      },
+      "sensor": {
+        "name": "Environmental-Node",
+        "description": "RIOT-based board collecting environmental data",
+        "encodingType": "application/pdf",
+        "metadata": "http://link-riot-datasheet.pdf"
+      },
+      "datastream": {
+        "name": "ONEM2M-Platform/Environmental-Node/Air-Temperature/env-nodeWD2",
+        "description": "Datastream for A measure of Air-Temperature.",
+        "unitOfMeasurement": {
+          "name": "air-temperature"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+        "observedArea": {
+          "coordinates": [
+            53.556558,
+            10.021898
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    {
+      "name": "WD 41",
+      "simulationFile": "WD 41.db",
+      "thing": {
+        "name": "DSS",
+        "description": "DSS Service"
+      },
+      "observedProperties": {
+        "name": "environmental sensors 7 or 8 bft",
+        "description": "n/a",
+        "definition": "http://mmisw.org/ont/ioos/parameter/environmental sensors 7 or 8 bft"
+      },
+      "sensor": {
+        "name": "environmental sensors 7 or 8 bft",
+        "description": "n/a",
+        "encodingType": "application/pdf",
+        "metadata": "https://en.wikipedia.org/wiki/environmental sensors 7 or 8 bft"
+      },
+      "datastream": {
+        "name": "DSS:environmental sensors 7 or 8 bft",
+        "description": "DSS:environmental sensors 7 or 8 bft",
+        "unitOfMeasurement": {
+          "definition": "http://unitsofmeasure.org/ucum.html#para-30",
+          "name": "environmental sensors 7 or 8 bft",
+          "symbol": "n/a"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Observation",
+        "observedArea": {
+          "coordinates": [
+            0,
+            0
+          ],
+          "type": "Point"
+        }
+      }
+    }
+  ]
+}

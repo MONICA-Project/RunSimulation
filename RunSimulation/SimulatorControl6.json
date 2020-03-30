@@ -1,0 +1,40 @@
+{
+  "simulation": [
+    {
+      "name": "WD 41",
+      "simulationFile": "WD 41.db",
+      "thing": {
+        "name": "2DSS2s",
+        "description": "DSS Service"
+      },
+      "observedProperties": {
+        "name": "environmental sensors 7 or 8 bft",
+        "description": "n/a",
+        "definition": "http://mmisw.org/ont/ioos/parameter/environmental sensors 7 or 8 bft"
+      },
+      "sensor": {
+        "name": "environmental sensors 7 or 8 bft",
+        "description": "n/a",
+        "encodingType": "application/pdf",
+        "metadata": "https://en.wikipedia.org/wiki/environmental sensors 7 or 8 bft"
+      },
+      "datastream": {
+        "name": "2DSS:environmental sensors 7 or 8 bft",
+        "description": "DSS:environmental sensors 7 or 8 bft",
+        "unitOfMeasurement": {
+          "definition": "http://unitsofmeasure.org/ucum.html#para-30",
+          "name": "environmental sensors 7 or 8 bft",
+          "symbol": "n/a"
+        },
+        "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Observation",
+        "observedArea": {
+          "coordinates": [
+            0,
+            0
+          ],
+          "type": "Point"
+        }
+      }
+    }
+  ]
+}
